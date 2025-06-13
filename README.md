@@ -50,24 +50,3 @@ int main() {
     return 0;
 }
 ```
-```mermaid
-graph TD
-    A[User Input / Output] -->|Uses| B[printf()]
-    A -->|Uses| C[scanf()]
-
-    B --> D{%d -> int}
-    B --> E{%f / %.2f -> float}
-    B --> F{%c -> char}
-    B --> G{%s -> string}
-    B --> H{%u -> unsigned int}
-    B --> I{%ld -> long int}
-    B --> J{%x -> hexadecimal}
-    B --> K{%% -> percent sign}
-
-    C --> D
-    C --> E
-    C --> F
-    C --> G
-    C --> H
-    C --> I
-```
