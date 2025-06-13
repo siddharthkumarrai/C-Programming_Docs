@@ -52,56 +52,27 @@ int main() {
 ```
 ```mermaid
 graph TD
-    Start[Format Specifiers]
+    A[Format Specifiers] --> B[%d]
+    A --> C[%f / %.2f]
+    A --> D[%lf]
+    A --> E[%c]
+    A --> F[%s]
+    A --> G[%u]
+    A --> H[%ld]
+    A --> I[%lld]
+    A --> J[%x / %X]
+    A --> K[%o]
+    A --> L[%%]
 
-    Start --> D_int[%d]
-    D_int -->|Used In| PrintD1[printf()]
-    D_int -->|Used In| ScanD1[scanf()]
-    D_int -->|For| TypeInt[int]
-
-    Start --> F_float[%f / %.2f]
-    F_float --> PrintF[printf()]
-    F_float --> ScanF[scanf()]
-    F_float --> TypeFloat[float]
-
-    Start --> LF_double[%lf]
-    LF_double --> ScanLF[scanf()]
-    LF_double --> TypeDouble[double]
-
-    Start --> C_char[%c]
-    C_char --> PrintC[printf()]
-    C_char --> ScanC[scanf()]
-    C_char --> TypeChar[char]
-
-    Start --> S_string[%s]
-    S_string --> PrintS[printf()]
-    S_string --> ScanS[scanf()]
-    S_string --> TypeStr[string (char[])]
-
-    Start --> U_uint[%u]
-    U_uint --> PrintU[printf()]
-    U_uint --> ScanU[scanf()]
-    U_uint --> TypeUInt[unsigned int]
-
-    Start --> LD_long[%ld]
-    LD_long --> PrintLD[printf()]
-    LD_long --> ScanLD[scanf()]
-    LD_long --> TypeLong[long int]
-
-    Start --> LLD_llong[%lld]
-    LLD_llong --> PrintLLD[printf()]
-    LLD_llong --> ScanLLD[scanf()]
-    LLD_llong --> TypeLLong[long long int]
-
-    Start --> X_hex[%x / %X]
-    X_hex --> PrintX[printf()]
-    X_hex --> TypeHex[Hexadecimal]
-
-    Start --> O_octal[%o]
-    O_octal --> PrintO[printf()]
-    O_octal --> TypeOctal[Octal]
-
-    Start --> Percent[%%]
-    Percent --> PrintPerc[printf()]
-    Percent --> TypePerc[Print % symbol]
+    B --> B1[int]
+    C --> C1[float]
+    D --> D1[double]
+    E --> E1[char]
+    F --> F1[string (char[])]
+    G --> G1[unsigned int]
+    H --> H1[long int]
+    I --> I1[long long int]
+    J --> J1[hexadecimal]
+    K --> K1[octal]
+    L --> L1[percent symbol]
 ```
