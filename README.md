@@ -52,6 +52,8 @@ int main() {
 ```
 ## 🧾 C Format Specifiers Diagram
 
+## 🧾 C Format Specifiers Diagram
+
 ```mermaid
 graph TD
     A["Format Specifiers"] --> B["%d<br/>int"]
@@ -67,15 +69,15 @@ graph TD
     A --> L["%%<br/>percent symbol"]
 
     style A fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#000
-    style B fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style C fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style D fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    style F fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    style G fill:#fce4ec,stroke:#d81b60,stroke-width:2px
-    style H fill:#fce4ec,stroke:#d81b60,stroke-width:2px
-    style I fill:#fce4ec,stroke:#d81b60,stroke-width:2px
-    style J fill:#ede7f6,stroke:#5e35b1,stroke-width:2px
-    style K fill:#ede7f6,stroke:#5e35b1,stroke-width:2px
-    style L fill:#cfd8dc,stroke:#455a64,stroke-width:2px
+    style B fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style C fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style D fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    style F fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    style G fill:#fce4ec,stroke:#d81b60,stroke-width:2px,color:#000
+    style H fill:#fce4ec,stroke:#d81b60,stroke-width:2px,color:#000
+    style I fill:#fce4ec,stroke:#d81b60,stroke-width:2px,color:#000
+    style J fill:#ede7f6,stroke:#5e35b1,stroke-width:2px,color:#000
+    style K fill:#ede7f6,stroke:#5e35b1,stroke-width:2px,color:#000
+    style L fill:#cfd8dc,stroke:#455a64,stroke-width:2px,color:#000
 ```
