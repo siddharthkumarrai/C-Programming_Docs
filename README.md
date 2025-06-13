@@ -50,7 +50,7 @@ int main() {
     return 0;
 }
 ```
-```mermid
+```mermaid
 graph TD
     A[User Input / Output] -->|Uses| B[printf()]
     A -->|Uses| C[scanf()]
