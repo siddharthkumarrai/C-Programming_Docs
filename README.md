@@ -50,29 +50,32 @@ int main() {
     return 0;
 }
 ```
+## 🧾 C Format Specifiers Diagram
+
 ```mermaid
 graph TD
-    A[Format Specifiers] --> B[%d]
-    A --> C[%f / %.2f]
-    A --> D[%lf]
-    A --> E[%c]
-    A --> F[%s]
-    A --> G[%u]
-    A --> H[%ld]
-    A --> I[%lld]
-    A --> J[%x / %X]
-    A --> K[%o]
-    A --> L[%%]
+    A["Format Specifiers"] --> B["%d<br/>int"]
+    A --> C["%f / %.2f<br/>float"]
+    A --> D["%lf<br/>double"]
+    A --> E["%c<br/>char"]
+    A --> F["%s<br/>string"]
+    A --> G["%u<br/>unsigned int"]
+    A --> H["%ld<br/>long int"]
+    A --> I["%lld<br/>long long int"]
+    A --> J["%x / %X<br/>hexadecimal"]
+    A --> K["%o<br/>octal"]
+    A --> L["%%<br/>percent symbol"]
 
-    B --> B1[int]
-    C --> C1[float]
-    D --> D1[double]
-    E --> E1[char]
-    F --> F1[string (char[])]
-    G --> G1[unsigned int]
-    H --> H1[long int]
-    I --> I1[long long int]
-    J --> J1[hexadecimal]
-    K --> K1[octal]
-    L --> L1[percent symbol]
+    style A fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#000
+    style B fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style C fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style D fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style F fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style G fill:#fce4ec,stroke:#d81b60,stroke-width:2px
+    style H fill:#fce4ec,stroke:#d81b60,stroke-width:2px
+    style I fill:#fce4ec,stroke:#d81b60,stroke-width:2px
+    style J fill:#ede7f6,stroke:#5e35b1,stroke-width:2px
+    style K fill:#ede7f6,stroke:#5e35b1,stroke-width:2px
+    style L fill:#cfd8dc,stroke:#455a64,stroke-width:2px
 ```
